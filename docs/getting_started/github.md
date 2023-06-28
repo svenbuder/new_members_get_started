@@ -43,6 +43,10 @@ git remote add origin https://github.com/svenbuder/project_name.git
 git push -u origin main
 ```
 
+You will be asked for your username and password.
+Use your GitHub username.
+For the password, "generate new token (classic)" under https://github.com/settings/tokens with a scope `repo` and then use the displayed word-number-combination.
+
 After executing these commands, your local directory will be linked to the GitHub repository, and you'll be able to push and pull changes between the local and remote repositories using Git commands.
 
 ## Syncing a Git Repository to Read the Docs
